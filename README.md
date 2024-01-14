@@ -5,11 +5,11 @@ This repository contains a Python script for classifying wine reviews as either 
 # Requirements
 Make sure you have the following dependencies installed:
 
--numpy
--pandas
--matplotlib
--tensorflow
--tensorflow_hub
+- numpy
+- pandas
+- matplotlib
+- tensorflow
+- tensorflow_hub
 
 # Dataset
 The script uses a wine reviews dataset (wine-reviews.csv). It includes information about the country, description, points, price, variety, and winery of each wine. The dataset is loaded into a Pandas DataFrame, and null values in the 'description' and 'points' columns are dropped.
@@ -21,7 +21,7 @@ The script preprocesses the data by classifying it into two categories: low tier
 Data Embedding\
 The script utilizes transfer learning with an embedding layer from TensorFlow Hub to convert wine descriptions into numerical representations.
 
-Model Architecture\
+## Model Architecture\
 The dense neural network model consists of:
 
 1. An embedding layer for text-to-vector transformation.

@@ -1,4 +1,4 @@
-# wine-reviews
+# wine-reviews-classifier
 
 This repository contains a Python script for classifying wine reviews as either low tier(low rated) or high tier(high rated) based on their points. The classification is performed using two different models: a dense neural network and a Long Short-Term Memory (LSTM) neural network.
 
